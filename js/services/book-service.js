@@ -16,7 +16,7 @@ const gBooks = [
             "Computers",
             "Hack"
         ],
-        thumbnail: "http://coding-academy.org/books-photos/20.jpg",
+        thumbnail: "https://coding-academy.org/books-photos/20.jpg",
         language: "en",
         listPrice: {
             amount: 109,
@@ -38,7 +38,7 @@ const gBooks = [
             "Computers",
             "Hack"
         ],
-        thumbnail: "http://coding-academy.org/books-photos/14.jpg",
+        thumbnail: "https://coding-academy.org/books-photos/14.jpg",
         language: "sp",
         listPrice: {
             amount: 44,
@@ -60,7 +60,7 @@ const gBooks = [
             "Computers",
             "Hack"
         ],
-        thumbnail: "http://coding-academy.org/books-photos/2.jpg",
+        thumbnail: "https://coding-academy.org/books-photos/2.jpg",
         language: "he",
         listPrice: {
             amount: 108,
@@ -82,7 +82,7 @@ const gBooks = [
             "Computers",
             "Hack"
         ],
-        thumbnail: "http://coding-academy.org/books-photos/16.jpg",
+        thumbnail: "https://coding-academy.org/books-photos/16.jpg",
         language: "en",
         listPrice: {
             amount: 30,
@@ -104,7 +104,7 @@ const gBooks = [
             "Computers",
             "Hack"
         ],
-        thumbnail: "http://coding-academy.org/books-photos/12.jpg",
+        thumbnail: "https://coding-academy.org/books-photos/12.jpg",
         language: "sp",
         listPrice: {
             amount: 19,
@@ -126,7 +126,7 @@ const gBooks = [
             "Computers",
             "Hack"
         ],
-        thumbnail: "http://coding-academy.org/books-photos/1.jpg",
+        thumbnail: "https://coding-academy.org/books-photos/1.jpg",
         language: "en",
         listPrice: {
             amount: 91,
@@ -148,7 +148,7 @@ const gBooks = [
             "Computers",
             "Hack"
         ],
-        thumbnail: "http://coding-academy.org/books-photos/14.jpg",
+        thumbnail: "https://coding-academy.org/books-photos/14.jpg",
         language: "he",
         listPrice: {
             amount: 90,
@@ -170,7 +170,7 @@ const gBooks = [
             "Computers",
             "Hack"
         ],
-        thumbnail: "http://coding-academy.org/books-photos/11.jpg",
+        thumbnail: "https://coding-academy.org/books-photos/11.jpg",
         language: "he",
         listPrice: {
             amount: 176,
@@ -192,7 +192,7 @@ const gBooks = [
             "Computers",
             "Hack"
         ],
-        thumbnail: "http://coding-academy.org/books-photos/10.jpg",
+        thumbnail: "https://coding-academy.org/books-photos/10.jpg",
         language: "sp",
         listPrice: {
             amount: 116,
@@ -214,7 +214,7 @@ const gBooks = [
             "Computers",
             "Hack"
         ],
-        thumbnail: "http://coding-academy.org/books-photos/5.jpg",
+        thumbnail: "https://coding-academy.org/books-photos/5.jpg",
         language: "en",
         listPrice: {
             amount: 145,
@@ -236,7 +236,7 @@ const gBooks = [
             "Computers",
             "Hack"
         ],
-        thumbnail: "http://coding-academy.org/books-photos/16.jpg",
+        thumbnail: "https://coding-academy.org/books-photos/16.jpg",
         language: "sp",
         listPrice: {
             amount: 157,
@@ -258,7 +258,7 @@ const gBooks = [
             "Computers",
             "Hack"
         ],
-        thumbnail: "http://coding-academy.org/books-photos/17.jpg",
+        thumbnail: "https://coding-academy.org/books-photos/17.jpg",
         language: "sp",
         listPrice: {
             amount: 57,
@@ -280,7 +280,7 @@ const gBooks = [
             "Computers",
             "Hack"
         ],
-        thumbnail: "http://coding-academy.org/books-photos/8.jpg",
+        thumbnail: "https://coding-academy.org/books-photos/8.jpg",
         language: "en",
         listPrice: {
             amount: 167,
@@ -302,7 +302,7 @@ const gBooks = [
             "Computers",
             "Hack"
         ],
-        thumbnail: "http://coding-academy.org/books-photos/3.jpg",
+        thumbnail: "https://coding-academy.org/books-photos/3.jpg",
         language: "he",
         listPrice: {
             amount: 150,
@@ -324,7 +324,7 @@ const gBooks = [
             "Computers",
             "Hack"
         ],
-        thumbnail: "http://coding-academy.org/books-photos/6.jpg",
+        thumbnail: "https://coding-academy.org/books-photos/6.jpg",
         language: "en",
         listPrice: {
             amount: 58,
@@ -346,7 +346,7 @@ const gBooks = [
             "Computers",
             "Hack"
         ],
-        thumbnail: "http://coding-academy.org/books-photos/7.jpg",
+        thumbnail: "https://coding-academy.org/books-photos/7.jpg",
         language: "en",
         listPrice: {
             amount: 78,
@@ -368,7 +368,7 @@ const gBooks = [
             "Computers",
             "Hack"
         ],
-        thumbnail: "http://coding-academy.org/books-photos/10.jpg",
+        thumbnail: "https://coding-academy.org/books-photos/10.jpg",
         language: "en",
         listPrice: {
             amount: 118,
@@ -390,7 +390,7 @@ const gBooks = [
             "Computers",
             "Hack"
         ],
-        thumbnail: "http://coding-academy.org/books-photos/12.jpg",
+        thumbnail: "https://coding-academy.org/books-photos/12.jpg",
         language: "he",
         listPrice: {
             amount: 60,
@@ -412,7 +412,7 @@ const gBooks = [
             "Computers",
             "Hack"
         ],
-        thumbnail: "http://coding-academy.org/books-photos/20.jpg",
+        thumbnail: "https://coding-academy.org/books-photos/20.jpg",
         language: "he",
         listPrice: {
             amount: 110,
@@ -434,7 +434,7 @@ const gBooks = [
             "Computers",
             "Hack"
         ],
-        thumbnail: "http://coding-academy.org/books-photos/2.jpg",
+        thumbnail: "https://coding-academy.org/books-photos/2.jpg",
         language: "sp",
         listPrice: {
             amount: 186,
@@ -510,7 +510,7 @@ function getNextbookId(bookId) {
 
 
 function getBooksList(value) {
-    const url = `https://www.googleapis.com/books/v1/volumes?printType=books&q=${value}`
+    const url = `httpss://www.googleapis.com/books/v1/volumes?printType=books&q=${value}`
     return axios.get(url)
         .then(res => res.data.items)
         .then(items => {
