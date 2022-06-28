@@ -510,7 +510,7 @@ function getNextbookId(bookId) {
 
 
 function getBooksList(value) {
-    const url = `httpss://www.googleapis.com/books/v1/volumes?printType=books&q=${value}`
+    const url = `https://www.googleapis.com/books/v1/volumes?printType=books&q=${value}`
     return axios.get(url)
         .then(res => res.data.items)
         .then(items => {
