@@ -1,0 +1,11 @@
+.app-footer {
+    background-color: rgb(77, 74, 74);
+    text-align: center;
+    padding: 1rem;
+}
+
+.app-footer p {
+    font-size: 1em;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}

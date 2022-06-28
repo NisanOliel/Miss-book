@@ -1,0 +1,48 @@
+.book-filter {
+    background-color: rgb(170, 170, 170);
+    padding: 20px;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+
+.book-filter input {
+    margin: 3px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.book-filter button {
+    background-color: rgb(156, 149, 149);
+    border-radius: 15px;
+    color: rgb(207, 207, 207);
+    cursor: pointer;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1em;
+}
+
+.book-filter button:hover {
+    background-color: rgb(218, 210, 210);
+    color: black;
+
+}
+
+.book-filter .addPlus {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.3em;
+    color: white;
+
+}
+
+.book-filter .addPlus:hover {
+    color: black;
+}
+
+.book-filter ul {
+    font-size: 0.9em;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}

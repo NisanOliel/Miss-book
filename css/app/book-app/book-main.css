@@ -1,0 +1,22 @@
+/* COMPONENTS  */
+
+@import 'components/book-filter.css';
+@import 'components/book-deatils.css';
+@import 'components/review-add.css';
+@import 'components/reviews-view.css';
+@import 'components/book-list.css';
+@import 'components/book-preview.css';
+
+
+
+.books-app {
+    background-color: rgb(233, 255, 250);
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}

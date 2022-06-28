@@ -1,0 +1,19 @@
+.about-page {
+    text-align: center;
+    width: 80vh;
+    height: 90vh;
+    align-items: center;
+    margin: auto;
+}
+
+.about-page h1 {
+    padding: 5px;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+
+.about-page img {
+    width: 700px;
+    height: 500px;
+    margin-top: 20px;
+}

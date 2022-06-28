@@ -1,0 +1,42 @@
+.review-add {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 5px;
+    margin: auto;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.review-add input {
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.review-add select {
+    border-radius: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+.review-add button {
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.review-add button:hover {
+    background-color: rgb(231, 231, 180);
+}

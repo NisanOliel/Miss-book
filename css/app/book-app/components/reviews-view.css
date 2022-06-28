@@ -1,0 +1,32 @@
+.reviews-container {
+    border: 1px solid white;
+    border-radius: 20px;
+    grid-area: 2/2/2/3;
+    text-align: left;
+}
+
+.reviews-container ul {
+    list-style: decimal;
+}
+
+.reviews-container li {
+    margin: 10px;
+}
+
+.reviews-container h1 {
+    text-align: center;
+}
+
+.reviews-container button {
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 0;
+}
+
+.reviews-container button:hover {
+    background-color: rgb(218, 213, 213);
+
+}
